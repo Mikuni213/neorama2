@@ -6,7 +6,7 @@ class BasicPlate extends React.Component {
         const Price =  '\xA5'+ this.props.PlateInformation.Price
         return(
             <div>
-                <a href='https://viewer-vr-d2e5246b77a8275462f520e673b4a16479c5a133.vercel.app/'>
+                <a href='https://viewer-vr-neo.vercel.app/'>
                 <div className='OutlineBasicBox'>
                     <div className='videotitle'>
                         <p className='RankLetter'>{this.props.PlateInformation.Title}</p>
